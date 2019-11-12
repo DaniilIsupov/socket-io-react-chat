@@ -1,0 +1,40 @@
+.App {
+    text-align: center;
+
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.change-name form input,
+.chat-wrapper .actions input {
+    width: 25vw;
+    max-width: 400px;
+    min-width: 200px;
+}
+
+.chat-wrapper {
+}
+
+.chat-wrapper .messages {
+    height: 50vh;
+    width: calc(100vw - 10px);
+    background-color: white;
+    border-radius: 5px;
+    overflow-y: auto;
+}
+
+.chat-wrapper .messages p {
+    color: black;
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.chat-wrapper .messages p.bold {
+    font-weight: bold;
+}
